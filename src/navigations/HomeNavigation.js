@@ -45,7 +45,19 @@ const HomeNavigation = TabNavigator({
             ),
         }
     },
-});
+},
+{
+    tabBarPosition: 'bottom',
+    swipeEnabled: true,
+    tabBarOptions: {
+      style: {
+        backgroundColor: '#BDBDBD',
+      },
+    inactiveTintColor: 'green',
+    activeTintColor: 'red'
+    },
+  }
+);
 
 const styles = {
     icon: {
